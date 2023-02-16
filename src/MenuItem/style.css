@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-item:nth-child(2n + 1) {
+  background-color: rgb(198, 202, 206);
+}
+.menu-item:nth-child(2n) {
+  background-color: rgb(241, 247, 252);
+}
+
+section {
+  padding: 30px;
+}
+article {
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 3px;
+}
+
+button {
+  padding: 2px 7px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: center;
+}

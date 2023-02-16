@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header
+{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.completed_class
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+form{
+    padding-bottom: 20px;
+}
+ul li{
+    padding: 20px 0px;
+    font-size: 30px;
+    transition: 0.3s;
+
+}
+
+ul li:nth-child(2n+1){
+    background-color: rgb(200, 255, 0);
+}
+button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    background-color: rgb(201, 222, 119);
+}
+
+input
+{
+    padding: 5px;
+}
+
+.deleteButton{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.completeButton{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}

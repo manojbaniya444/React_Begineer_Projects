@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+.navbar li{
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    transition: 0.2s ease;
+}
+
+.navbar ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li:hover
+{
+    color: rgb(189, 175, 175);
+}
+.aboutpage
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.homepage
+{
+    text-align: center;
+    margin-top: 20px;
+    height: 40vh;
+}
+
+.shoppage
+{
+    text-align: center;
+   padding-top: 20px;
+}
+
+.fact
+{
+    text-align: center;
+}
+
+.componentpage{
+    margin-top: 30px;
+    display: flex;
+    padding: 0 5px;
+    text-align: center;
+    gap: 2px;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+.componentpage div{
+    background-color: black;
+    color: white;
+    padding: 20px 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.shop{
+    height: 300px;
+}
+
+.componentpage div:hover{
+    background-color: rgb(42, 39, 39);
+}

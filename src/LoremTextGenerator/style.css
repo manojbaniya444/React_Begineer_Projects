@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    /* background-color: red; */
+    padding: 30px 20px;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+form
+{
+    /* background-color: green; */
+    padding: 30px 0;
+}
+button
+{
+    cursor: pointer;
+    padding: 2px 7px;
+}
+input
+{
+    padding: 2px 7px;
+}
+label
+{
+    font-size: 19px;
+    font-style: oblique;
+}
+p
+{
+    margin-bottom: 10px;
+}
